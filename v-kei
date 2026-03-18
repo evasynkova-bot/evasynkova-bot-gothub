@@ -1,1 +1,42 @@
-
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eva - O mně</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f9f5f7;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .card {
+            background: black;
+            padding: 2.5rem;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+            text-align: center;
+            max-width: 350px;
+            border-top: 5px solid #6a1b9a;
+        }
+        h1 {
+            color: #4a148c;
+            margin-bottom: 1rem;
+            font-size: 2.2rem;
+        }
+        p {
+            color: #444;
+            font-size: 1.1rem;
+            line-height: 1.5;
+        }
+        .highlight {
+            color: #8e24aa;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
